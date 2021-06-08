@@ -14,5 +14,5 @@ then(result => {for(let i=0;i<10;i++){
 document.getElementsByClassName("author")[i].style.border="red solid 3px";
 document.getElementById(`button${i}`).onclick=function(){document.getElementById(`button${i}`).parentNode.remove()}
 }});
-
+document.getElementById("button").setAttribute("hidden",true);
 }
